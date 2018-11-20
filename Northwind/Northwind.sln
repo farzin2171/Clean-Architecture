@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{98D525E5-50CE-4A04-86AC-DB67575DE032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{BADB08BD-75A5-4C0E-BB62-E5616FEE17B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{54B1DCC8-1729-45B0-8C96-DBD4AED7947C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{9F4E1779-6A05-4822-B17F-C00C69CF8006}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D7C10A4C-839C-4137-AA1E-FD881F1F7214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{490CE185-6200-40E7-8483-1F6264737D3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D2836B7F-8754-40A8-9123-6ACED109B33F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Domain", "NorthWind.Domain\NorthWind.Domain.csproj", "{55E51C9B-29EE-4841-85AE-DDF38F189CE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55E51C9B-29EE-4841-85AE-DDF38F189CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E51C9B-29EE-4841-85AE-DDF38F189CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E51C9B-29EE-4841-85AE-DDF38F189CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E51C9B-29EE-4841-85AE-DDF38F189CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F4E1779-6A05-4822-B17F-C00C69CF8006} = {BADB08BD-75A5-4C0E-BB62-E5616FEE17B2}
+		{D7C10A4C-839C-4137-AA1E-FD881F1F7214} = {BADB08BD-75A5-4C0E-BB62-E5616FEE17B2}
+		{490CE185-6200-40E7-8483-1F6264737D3E} = {BADB08BD-75A5-4C0E-BB62-E5616FEE17B2}
+		{D2836B7F-8754-40A8-9123-6ACED109B33F} = {BADB08BD-75A5-4C0E-BB62-E5616FEE17B2}
+		{55E51C9B-29EE-4841-85AE-DDF38F189CE8} = {490CE185-6200-40E7-8483-1F6264737D3E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDBB987A-A4B5-4258-908F-AA92361FBBE7}
+	EndGlobalSection
+EndGlobal

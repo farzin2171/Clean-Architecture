@@ -1,0 +1,44 @@
+*.pyc
+*.pyo
+*.msi
+*.exe
+*.zip
+/target
+/test_results
+/build
+
+/HOWTO.txt
+![Rr]elease_[Nn]otes
+![Rr]elease [Nn]otes
+*.log
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lock
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.pyc
+*.pyo
+![Rr]elease_[Nn]otes
+![Rr]elease [Nn]otes
