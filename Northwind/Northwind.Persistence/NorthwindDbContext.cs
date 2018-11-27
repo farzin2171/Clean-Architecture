@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NorthWind.Domain.Entities;
+using Northwind.Persistence.Extensions;
 
 namespace Northwind.Persistence
 {
@@ -33,5 +34,9 @@ namespace Northwind.Persistence
 
         public DbSet<User> Users { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyAllConfigurations();
+        }
     }
 }

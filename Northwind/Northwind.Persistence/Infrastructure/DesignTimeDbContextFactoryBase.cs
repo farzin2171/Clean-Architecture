@@ -23,7 +23,7 @@ namespace Northwind.Persistence.Infrastructure
         private TContext Create(string basePath, string environmentName)
         {
             var configuration = new ConfigurationBuilder()
-                .SetBasePath(basePath + "\\..\\Northwind..WebUI")
+                .SetBasePath(basePath + "\\..\\Northwind.WebUI")
                 .AddJsonFile("appsettings.json")
                 .AddJsonFile($"appsettings.Local.json", optional: true)
                 .AddJsonFile($"appsettings.{environmentName}.json", optional: true)
